@@ -26,7 +26,7 @@
 button {
   max-width: 200px;
   margin-top: 30px;
-  margin-left: 630px;
+
   margin-bottom: 30px;
   background-color: #4ca5af;
   border: 1px solid rgb(0, 128, 122);
@@ -49,9 +49,15 @@ button {
   border: 1px solid black;
   border-radius: 16px;
   background-color: #ccc;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   transition: all 0.5s ease;
 }
+#container li:hover {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+#container2 li:hover {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
 #container2 li {
   list-style: none;
   display: flex;
